@@ -2,10 +2,10 @@
 import { connect } from 'cloudflare:sockets';
 
 let userID = '';
-let proxyIP = '';
-let sub = '';
+let proxyIP = 'ProxyIP.HK.fxxk.dedyn.io';
+let sub = 'VLESS.fxxk.dedyn.io';
 let subConverter = 'SUBAPI.fxxk.dedyn.io';
-let subConfig = "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/config/ACL4SSR_Online_Mini_MultiMode.ini";
+let subConfig = "https://raw.githubusercontent.com/igmkgu/ACL4SSR/refs/heads/patch-1/Clash/config/ACL4SSR_Online_Full.ini";
 let subProtocol = 'https';
 let subEmoji = 'true';
 let socks5Address = '';
